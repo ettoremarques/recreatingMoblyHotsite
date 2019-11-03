@@ -1,0 +1,521 @@
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(../fonts/Rubik-Medium.ttf);
+}
+
+* {
+  font-family: Rubik-Medium;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body .navbar-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  margin: auto;
+}
+
+body .navbar-content .phone-and-state-bg {
+  width: 100%;
+  background: #dee8e0;
+  height: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .navbar-content .phone-and-state-bg .phone-and-state {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+body .navbar-content .phone-and-state-bg .state {
+  margin-left: auto;
+}
+
+body .navbar-content .user-taskbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .navbar-content .user-taskbar .search,
+body .navbar-content .user-taskbar .mobly-logo,
+body .navbar-content .user-taskbar .fav-myacc-cart {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .navbar-content .user-taskbar .search input {
+  width: 185px;
+  height: 40px;
+  border: none;
+  background: #dee8e0;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+
+body .navbar-content .user-taskbar .search input::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+body .navbar-content .user-taskbar .search input:-ms-input-placeholder {
+  font-style: italic;
+}
+
+body .navbar-content .user-taskbar .search input::-ms-input-placeholder {
+  font-style: italic;
+}
+
+body .navbar-content .user-taskbar .search input::placeholder {
+  font-style: italic;
+}
+
+body .navbar-content .user-taskbar .search button {
+  width: 70px;
+  height: 40px;
+  border: none;
+  background: #7628b2;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+body .navbar-content .user-taskbar .mobly-logo {
+  background-image: url("../imagens/brand-Mobly.png");
+  width: 150px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+}
+
+body .navbar-content .user-taskbar .fav-myacc-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .navbar-content .user-taskbar .fav-myacc-cart .favorites,
+body .navbar-content .user-taskbar .fav-myacc-cart .my-account,
+body .navbar-content .user-taskbar .fav-myacc-cart .shop-cart {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .navbar-content .user-taskbar .fav-myacc-cart .shop-cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #7628b2;
+  border-radius: 3px;
+  height: 100%;
+}
+
+body .navbar-content .navbar {
+  border-top: 1px solid grey;
+}
+
+body .navbar-content .navbar .navbar-itens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+}
+
+body .navbar-content .navbar .navbar-itens .per-room,
+body .navbar-content .navbar .navbar-itens .per-category,
+body .navbar-content .navbar .navbar-itens .per-style,
+body .navbar-content .navbar .navbar-itens .news,
+body .navbar-content .navbar .navbar-itens .promos {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .page-content {
+  width: 100vw;
+}
+
+body .page-content .section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-width: 1280px;
+}
+
+body .page-content .first {
+  background-image: url("../imagens/1.jpg");
+  min-height: 305px;
+  height: 23.5vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page-content .first p {
+  color: white;
+}
+
+body .page-content .first .first-infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 850px;
+  min-width: 650px;
+  margin: 30px 0 0 150px;
+}
+
+body .page-content .first .first-infos .first-text {
+  font-size: 2.5vw;
+}
+
+body .page-content .first .first-infos .first-app-info,
+body .page-content .first .first-infos .first-additional-info {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+body .page-content .first .first-infos .first-app-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page-content .first .first-infos .first-texts {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 33px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .page-content .first .first-infos .first-text,
+body .page-content .first .first-infos .first-additional-info {
+  width: 60%;
+}
+
+body .page-content .second {
+  background-image: url("../imagens/2.jpg");
+  height: 23.5vw;
+}
+
+body .page-content .second .second-texts {
+  width: 35vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .page-content .second .second-texts .second-text {
+  font-size: 3vw;
+}
+
+body .page-content .second .second-texts .second-additional-info {
+  font-size: 1.05vw;
+  margin-top: 25px;
+}
+
+body .page-content .third {
+  background-image: url("../imagens/3.jpg");
+  height: 31vw;
+}
+
+body .page-content .third p {
+  color: white;
+}
+
+body .page-content .third .third-texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 55%;
+  position: relative;
+}
+
+body .page-content .third .third-texts .third-text {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 25px;
+  right: 150px;
+}
+
+body .page-content .third .third-texts .third-text .photo {
+  background-image: url("../imagens/pictograma.png");
+  background-size: 50px;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  margin-right: 25px;
+}
+
+body .page-content .third .third-texts .third-text p {
+  font-size: 2.5vw;
+}
+
+body .page-content .third .third-texts .third-additional-info {
+  margin-top: 35px;
+  position: absolute;
+}
+
+body .page-content .third .third-texts .third-additional-info p:first-child {
+  margin: 25px 0;
+}
+
+body .page-content .third .third-texts .third-additional-info p {
+  font-size: 1.1vw;
+}
+
+body .page-content .fourth {
+  background-image: url("../imagens/4.jpg");
+  height: 31vw;
+  position: relative;
+}
+
+body .page-content .fourth .fourth-text-first,
+body .page-content .fourth .fourth-text-second {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .page-content .fourth .fourth-text-first p:first-child,
+body .page-content .fourth .fourth-text-second p:first-child {
+  font-size: 3vw;
+  margin-bottom: 15px;
+}
+
+body .page-content .fourth .fourth-text-first p,
+body .page-content .fourth .fourth-text-second p {
+  font-size: 1.1vw;
+}
+
+body .page-content .fourth .fourth-text-first {
+  left: 25vw;
+  top: 3vw;
+}
+
+body .page-content .fourth .fourth-text-second {
+  right: 32vw;
+  top: 10vw;
+}
+
+body .page-content .fifth {
+  background-image: url("../imagens/5.jpg");
+  height: 23.5vw;
+  position: relative;
+}
+
+body .page-content .fifth .fifth-text-first {
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .page-content .fifth .fifth-text-first p:first-child {
+  font-size: 3vw;
+}
+
+body .page-content .fifth .fifth-text-first p {
+  font-size: 1.2vw;
+}
+
+body .page-content .sixth {
+  background-image: url("../imagens/6.jpg");
+  height: 31vw;
+  position: relative;
+}
+
+body .page-content .sixth .sixth-text-first {
+  position: absolute;
+  left: 45%;
+  top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .page-content .sixth .sixth-text-first p:first-child {
+  font-size: 3vw;
+}
+
+body .page-content .sixth .sixth-text-first p {
+  font-size: 1.2vw;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  height: 100px;
+}
+
+body footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.app-store,
+.google-play {
+  height: 42px;
+  width: 141px;
+  background-repeat: no-repeat;
+  background-size: 140px;
+  cursor: pointer;
+}
+
+.app-store {
+  background-image: url("../imagens/button-apple.png");
+  margin: 0 0 0 40px;
+}
+
+.google-play {
+  background-image: url("../imagens/button-android.png");
+  margin: 0 0 0 10px;
+}
+/*# sourceMappingURL=index.css.map */
