@@ -1,6 +1,6 @@
 @font-face {
   font-family: Rubik-Medium;
-  src: url(../fonts/Rubik-Medium.ttf);
+  src: url(./fonts/Rubik-Medium.ttf);
 }
 
 * {
@@ -114,7 +114,7 @@ body .navbar-content .user-taskbar .search button {
 }
 
 body .navbar-content .user-taskbar .mobly-logo {
-  background-image: url("../imagens/brand-Mobly.png");
+  background-image: url("./imagens/brand-Mobly.png");
   width: 150px;
   height: 40px;
   background-repeat: no-repeat;
@@ -198,7 +198,7 @@ body .page-content .section {
 }
 
 body .page-content .first {
-  background-image: url("../imagens/1.jpg");
+  background-image: url("./imagens/1.jpg");
   min-height: 305px;
   height: 23.5vw;
   -webkit-box-pack: center;
@@ -273,7 +273,7 @@ body .page-content .first .first-infos .first-additional-info {
 }
 
 body .page-content .second {
-  background-image: url("../imagens/2.jpg");
+  background-image: url("./imagens/2.jpg");
   height: 23.5vw;
 }
 
@@ -304,7 +304,7 @@ body .page-content .second .second-texts .second-additional-info {
 }
 
 body .page-content .third {
-  background-image: url("../imagens/3.jpg");
+  background-image: url("./imagens/3.jpg");
   height: 31vw;
 }
 
@@ -344,7 +344,7 @@ body .page-content .third .third-texts .third-text {
 }
 
 body .page-content .third .third-texts .third-text .photo {
-  background-image: url("../imagens/pictograma.png");
+  background-image: url("./imagens/pictograma.png");
   background-size: 50px;
   background-repeat: no-repeat;
   height: 50px;
@@ -370,7 +370,7 @@ body .page-content .third .third-texts .third-additional-info p {
 }
 
 body .page-content .fourth {
-  background-image: url("../imagens/4.jpg");
+  background-image: url("./imagens/4.jpg");
   height: 31vw;
   position: relative;
 }
@@ -409,7 +409,7 @@ body .page-content .fourth .fourth-text-second {
 }
 
 body .page-content .fifth {
-  background-image: url("../imagens/5.jpg");
+  background-image: url("./imagens/5.jpg");
   height: 23.5vw;
   position: relative;
 }
@@ -439,7 +439,7 @@ body .page-content .fifth .fifth-text-first p {
 }
 
 body .page-content .sixth {
-  background-image: url("../imagens/6.jpg");
+  background-image: url("./imagens/6.jpg");
   height: 31vw;
   position: relative;
 }
@@ -510,12 +510,12 @@ p {
 }
 
 .app-store {
-  background-image: url("../imagens/button-apple.png");
+  background-image: url("./imagens/button-apple.png");
   margin: 0 0 0 40px;
 }
 
 .google-play {
-  background-image: url("../imagens/button-android.png");
+  background-image: url("./imagens/button-android.png");
   margin: 0 0 0 10px;
 }
 /*# sourceMappingURL=index.css.map */
